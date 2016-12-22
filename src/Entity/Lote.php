@@ -2,8 +2,6 @@
 
 namespace Entity;
 
-use Entity\Prestador;
-
 class Lote
 {
 
@@ -122,7 +120,7 @@ class Lote
     /**
      * @return \Entity\Prestador
      */
-    public function getPrestador(): \Entity\Prestador
+    public function getPrestador(): Prestador
     {
         return $this->prestador;
     }
@@ -130,7 +128,7 @@ class Lote
     /**
      * @param \Entity\Prestador $prestador
      */
-    public function setPrestador(\Entity\Prestador $prestador)
+    public function setPrestador(Prestador $prestador)
     {
         $this->prestador = $prestador;
     }

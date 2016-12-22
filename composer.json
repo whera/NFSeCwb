@@ -1,0 +1,17 @@
+{
+  "name": "nfse/cwb",
+  "description": "Integração com webservice da prefeitura de Curitiba, PR-Brasil para emissão de notas fiscais de serviço eletrônica",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lucas Coser",
+      "email": "lucasccarlos@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "NFSeCwb\\": "src/"
+    }
+  }
+}
