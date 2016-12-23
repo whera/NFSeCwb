@@ -1,31 +1,61 @@
 <?php
-
 namespace Entity;
-
 
 class Tomador
 {
-    /** @var  int $cnpj */
+    /**
+     * @var  int $cnpj
+     */
     private $cnpj;
-    /** @var  string $razaoSocial */
+
+    /**
+     * @var  string $razaoSocial
+     */
     private $razaoSocial;
-    /** @var  string $endereco */
+
+    /**
+     * @var  string $endereco
+     */
     private $endereco;
-    /** @var  int $numero */
+
+    /**
+     * @var  int $numero
+     */
     private $numero;
-    /** @var  string $complemento */
+
+    /**
+     * @var  string $complemento
+     */
     private $complemento;
-    /** @var  string $bairro */
+
+    /**
+     * @var  string $bairro
+     */
     private $bairro;
-    /** @var  int $codigoMunicipio */
+
+    /**
+     * @var  int $codigoMunicipio
+     */
     private $codigoMunicipio;
-    /** @var  string $uf */
+
+    /**
+     * @var  string $uf
+     */
     private $uf;
-    /** @var  int $cep */
+
+    /**
+     * @var  int $cep
+     */
     private $cep;
-    /** @var  int $telefone */
+
+    /**
+     * @var  int $telefone
+     */
     private $telefone;
-    /** @var  string $email */
+
+    /**
+     * @var  string $email
+     */
     private $email;
 
 
@@ -204,5 +234,4 @@ class Tomador
     {
         $this->email = $email;
     }
-
 }

@@ -1,21 +1,32 @@
 <?php
-
 namespace Entity;
-
 
 class Tributacao
 {
-    /** @var  int $naturezaOperacao */
+    /**
+     * @var  int $naturezaOperacao
+     */
     private $naturezaOperacao;
-    /** @var  int $regimeEspecialTributacao */
-    private $regimeEspecialTributacao;
-    /** @var  int $optanteSimplesNacional */
-    private $optanteSimplesNacional;
-    /** @var  int $incentivadorCultural */
-    private $incentivadorCultural;
-    /** @var  int $status */
-    private $status;
 
+    /**
+     * @var  int $regimeEspecialTributacao
+     */
+    private $regimeEspecialTributacao;
+
+    /**
+     *  @var  int $optanteSimplesNacional
+     */
+    private $optanteSimplesNacional;
+
+    /**
+     * @var  int $incentivadorCultural
+     */
+    private $incentivadorCultural;
+
+    /**
+     * @var  int $status
+     */
+    private $status;
 
     /**
      * @return int
@@ -96,5 +107,4 @@ class Tributacao
     {
         $this->status = $status;
     }
-
 }

@@ -1,14 +1,16 @@
 <?php
-
 namespace Entity;
-
 
 class Prestador
 {
-
-    /** @var  int $cnpj */
+    /**
+     * @var int
+     */
     private $cnpj;
-    /** @var  int $inscricaoMunicipal */
+
+    /**
+     * @var int
+     */
     private $inscricaoMunicipal;
 
 
@@ -19,6 +21,7 @@ class Prestador
     {
         return $this->cnpj;
     }
+
 
     /**
      * @param int $cnpj
@@ -43,5 +46,4 @@ class Prestador
     {
         $this->inscricaoMunicipal = $inscricaoMunicipal;
     }
-
 }

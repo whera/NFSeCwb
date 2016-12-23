@@ -1,25 +1,42 @@
 <?php
-
 namespace Entity;
 
 class Lote
 {
-
-    /** @var  int $numeroLote */
+    /**
+     * @var  int $numeroLote
+     */
     private $numeroLote;
-    /** @var  int $quantidadeRps */
-    private $quantidadeRps;
-    /** @var  int $numero */
-    private $numero;
-    /** @var  int $serie */
-    private $serie;
-    /** @var  int $tipo */
-    private $tipo;
-    /** @var  \DateTime $dataEmissao */
-    private $dataEmissao;
-    /** @var  Prestador $prestador */
-    private $prestador;
 
+    /**
+     * @var  int $quantidadeRps
+     */
+    private $quantidadeRps;
+
+    /**
+     * @var  int $numero
+     */
+    private $numero;
+
+    /**
+     * @var  int $serie
+     */
+    private $serie;
+
+    /**
+     * @var  int $tipo
+     */
+    private $tipo;
+
+    /**
+     * @var  \DateTime $dataEmissao
+     */
+    private $dataEmissao;
+
+    /**
+     * @var  Prestador $prestador
+     */
+    private $prestador;
 
     /**
      * @return int
@@ -132,5 +149,4 @@ class Lote
     {
         $this->prestador = $prestador;
     }
-
 }

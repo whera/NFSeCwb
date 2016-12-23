@@ -1,20 +1,27 @@
 <?php
-
 namespace Entity;
-
 
 class Servico
 {
-
-    /** @var  string $itemListaServico */
+    /**
+     * @var  string $itemListaServico
+     */
     private $itemListaServico;
-    /** @var  int $codigoCnae */
-    private $codigoCnae;
-    /** @var  string $discriminacao */
-    private $discriminacao;
-    /** @var  int $codigoMunicipio */
-    private $codigoMunicipio;
 
+    /**
+     * @var  int $codigoCnae
+     */
+    private $codigoCnae;
+
+    /**
+     * @var  string $discriminacao
+     */
+    private $discriminacao;
+
+    /**
+     * @var  int $codigoMunicipio
+     */
+    private $codigoMunicipio;
 
     /**
      * @return string
@@ -79,5 +86,4 @@ class Servico
     {
         $this->codigoMunicipio = $codigoMunicipio;
     }
-
 }

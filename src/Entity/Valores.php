@@ -1,43 +1,87 @@
 <?php
-
 namespace Entity;
-
 
 class Valores
 {
-    /** @var  float $valorServicos */
+    /**
+     * @var  float $valorServicos
+     */
     private $valorServicos;
-    /** @var  float $valorDeducoes */
-    private $valorDeducoes;
-    /** @var  float $valorPis */
-    private $valorPis;
-    /** @var  float $valorCofins */
-    private $valorCofins;
-    /** @var  float $valorInss */
-    private $valorInss;
-    /** @var  float $valorIr */
-    private $valorIr;
-    /** @var  float $valorCsll */
-    private $valorCsll;
-    /** @var  int $issRetido */
-    private $issRetido;
-    /** @var  float $valorIss */
-    private $valorIss;
-    /** @var  float $valorIssRetido */
-    private $valorIssRetido;
-    /** @var  float $outrasRetencoes */
-    private $outrasRetencoes;
-    /** @var  float $baseCalculo */
-    private $baseCalculo;
-    /** @var  float $aliquota */
-    private $aliquota;
-    /** @var  float $valorLiquidoNfse */
-    private $valorLiquidoNfse;
-    /** @var  float $descontoIncondicionado */
-    private $descontoIncondicionado;
-    /** @var  float $descontoCondicionado */
-    private $descontoCondicionado;
 
+    /**
+     * @var  float $valorDeducoes
+     */
+    private $valorDeducoes;
+
+    /**
+     * @var  float $valorPis
+     */
+    private $valorPis;
+
+    /**
+     * @var  float $valorCofins
+     */
+    private $valorCofins;
+
+    /**
+     * @var  float $valorInss
+     */
+    private $valorInss;
+
+    /**
+     * @var  float $valorIr
+     */
+    private $valorIr;
+
+    /**
+     * @var  float $valorCsll
+     */
+    private $valorCsll;
+
+    /**
+     * @var  int $issRetido
+     */
+    private $issRetido;
+
+    /**
+     * @var  float $valorIss
+     */
+    private $valorIss;
+
+    /**
+     * @var  float $valorIssRetido
+     */
+    private $valorIssRetido;
+
+    /**
+     * @var  float $outrasRetencoes
+     */
+    private $outrasRetencoes;
+
+    /**
+     * @var  float $baseCalculo
+     */
+    private $baseCalculo;
+
+    /**
+     * @var  float $aliquota
+     */
+    private $aliquota;
+
+    /**
+     * @var  float $valorLiquidoNfse
+     */
+    private $valorLiquidoNfse;
+
+    /**
+     * @var  float $descontoIncondicionado
+     */
+    private $descontoIncondicionado;
+
+    /**
+     * @var  float $descontoCondicionado
+     */
+    private $descontoCondicionado;
 
     /**
      * @return float
@@ -294,5 +338,4 @@ class Valores
     {
         $this->descontoCondicionado = $descontoCondicionado;
     }
-
 }
